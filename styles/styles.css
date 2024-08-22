@@ -1,0 +1,77 @@
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 32px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.human, .computer {
+    max-width: 175px;
+    text-align: center;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
+
+.characters {
+    height: 175px;
+    width: auto;
+}
+
+.bold {
+    font-size: 35px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    gap: 10px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    
+    padding: 10px;
+}
+button > img {
+    width: 150px;
+    height: auto;
+}
+
+.invisible {
+    display: none;
+}
+
+button {
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #000;
+    background-color: white;
+}
